@@ -113,6 +113,13 @@ The fraud cases are stored in a JSON file with the following structure:
 }
 ```
 
+## Testing
+
+You can test the fraud cases database by running:
+```bash
+python test_database.py
+```
+
 ## Customization
 
 You can modify the fraud cases in `data/fraud_cases.json` to test different scenarios or add new cases.
