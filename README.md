@@ -63,7 +63,11 @@ This project implements a fraud alert voice agent for a fictional bank that cont
 
 1. Start the backend agent:
    ```bash
-   python agent.py dev
+   python run_agent.py
+   ```
+   or alternatively:
+   ```bash
+   cd src && python -m agent dev
    ```
 
 2. In a separate terminal, start the frontend:
