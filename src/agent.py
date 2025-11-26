@@ -27,7 +27,7 @@ logger = logging.getLogger("agent")
 load_dotenv(".env.local")
 
 # Load fraud cases
-FRAUD_CASES_FILE = os.path.join(os.path.dirname(__file__), "..", "fraud_cases.json")
+FRAUD_CASES_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "fraud_cases.json")
 
 
 class FraudAlertAgent(Agent):

@@ -107,7 +107,7 @@ The fraud cases are stored in a JSON file with the following structure:
 
 ## Customization
 
-You can modify the fraud cases in `fraud_cases.json` to test different scenarios or add new cases.
+You can modify the fraud cases in `data/fraud_cases.json` to test different scenarios or add new cases.
 
 ## License
 
