@@ -34,6 +34,10 @@ This project implements a fraud alert voice agent for a fictional bank that cont
 
 2. Install Python dependencies:
    ```bash
+   pip install -r requirements.txt
+   ```
+   or alternatively:
+   ```bash
    pip install livekit-agents livekit-plugins-deepgram livekit-plugins-google livekit-plugins-murf
    ```
 
